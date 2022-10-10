@@ -6,7 +6,7 @@ This work demonstrates a novel means of producing a differentially-private machi
 
 ![Differential Privacy](./images/dp.png)
 
-That is, algorithm is private if it produces consecutive results that are generally identical regardless of whether a single entry is present within the database that is queried. Our objective in this research is to produce a machine learning model which reveals no information about the data it was trained on.
+That is, an algorithm is private if it produces consecutive results that are generally identical regardless of whether a single entry is present within the database that is queried. Our objective in this research is to produce a machine learning model which reveals no information about the data it was trained on.
 
 This work is based on the efforts of Ricardo Maia involving secure multi-party DGA detection. 
 
