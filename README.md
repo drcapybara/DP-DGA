@@ -15,17 +15,20 @@ That is, algorithm is private if it produces consecutive results that are genera
 This work is based on the efforts of Ricardo Maia involving secure multi-party DGA detection. 
 
 # Results
+
+We present experimental results of differentially-private model training across three common machine learning architectures:
+
 ## CNN results:
-![CNN Results](./images/CNNaccuracy.png)
+![CNN Results](./images/CNNaccuracy.jpg)
 
 ## MLP results:
-![CNN Results](./images/MLPtestVsTrainAccuracyFigure.png)
+![CNN Results](./images/MLPtestVsTrainAccuracyFigure.jpg)
 
 ## LSTM results:
-![CNN Results](./images/LSTMtestVsTrainAccuracyFigure.png)
+![CNN Results](./images/LSTMtestVsTrainAccuracyFigure.jpg)
 
 ## Non-DP vs DP Prediction Accuracy:
-![CNN Results](./images/acc_chart.png)
+![CNN Results](./images/acc_chart.jpg)
 
 Our measurements show a modest but expected decrease in model utility when privacy is added to the training process. We note that given greater training time, stronger hardware, and smaller batch sizes, we obtain higher accuracies in the private setting. 
 
@@ -37,4 +40,8 @@ Our measurements show a modest but expected decrease in model utility when priva
 ## Future Work
 
 Differentially-private stochastic gradient descent alters the procedure by which queries are made over a dataset at the cost of performance enhancements when performed in a non-private training setting. Future work remains to demonstrate the viability of vectorized approaches to the differentially private training process such that parallel hardware can be leveraged. 
+
+## Publications
+
+This work appears in the publication titled "Secure Multi-Party Computation and Differential Privacy Applied to DGA Detection" which is submitted for preprint and currently under review. 
 
