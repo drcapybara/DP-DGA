@@ -1,9 +1,5 @@
 # Differentially-private domain generation algorithm detection
 
-[Background](#background)
-[Results](#results)
-[Technologies](#technologies)
-[Future Work](#future-work)
 ## Background
 
 This work demonstrates a novel means of producing a differentially-private machine learning model for the purpose of domain-generation algorithm detection. We demonstrate the process by which a trained model can be made quantifiably private against adverserial analysis. An algorithm is said to be differentially private if it satisfies the following requirements:
@@ -14,7 +10,7 @@ That is, algorithm is private if it produces consecutive results that are genera
 
 This work is based on the efforts of Ricardo Maia involving secure multi-party DGA detection. 
 
-# Results
+## Results
 
 We present experimental results of differentially-private model training across three common machine learning architectures:
 
