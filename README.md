@@ -4,7 +4,7 @@
 
 This work demonstrates a novel means of producing a differentially-private machine learning model for the purpose of domain-generation algorithm detection. We demonstrate the process by which a trained model can be made quantifiably private against adverserial analysis. An algorithm is said to be differentially private if it satisfies the following requirements:
 
-![Differential Privacy](./images/dp.png)
+$\Pr[M(x) \in S] \leq \exp(e) \Pr[Y \in S] + \delta$
 
 That is, an algorithm is private if it produces consecutive results that are generally identical regardless of whether a single entry is present within the database that is queried. Our objective in this research is to produce a machine learning model which reveals no information about the data it was trained on.
 
